@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root
+{
+    --first-color: #260eff;
+    --ps-color: #18dcff;
+    --xbox-color: #00e20b;
+    --dark-bg-color: #282828;
+}
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+    background-color: var(--dark-bg-color);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.light-bg
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-container
+{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.navbar-container-active
+{
+    align-items: center;
+    filter: drop-shadow(0 0 0.75rem #000);
+    transition: 0.75s;
+}
+
+.navbar
+{
+    padding: 5px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+    background-color: transparent;
+}
+
+.navbar-active
+{
+    background-color: var(--dark-bg-color);
+}
+
+.navbar a
+{
+    color: #fff;
+}
+
+.navbar ul
+{
+    list-style: none;
+}
+
+.navbar ul li
+{
+    display: inline;
+    padding: 0 5px;
+}
+
+.navbar ul li a
+{
+    display: inline;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.navbar a img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps4-nav:hover, .ps3-nav:hover, .ps2-nav:hover, .psp-nav:hover, .psv-nav:hover
+{
+    color: var(--ps-color);
+}
+
+.xo-nav:hover, .x360-nav:hover
+{
+    color: var(--xbox-color);
+}
+
+.crt-nav:hover
+{
+    color: var(--first-color);
+}
+
+footer
+{
+    background-color: #000;
+    filter: drop-shadow(0 0 0.25rem #000);
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

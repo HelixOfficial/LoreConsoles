@@ -1,0 +1,55 @@
+#Home
+{
+    height: 100%;
+    background: linear-gradient(130deg , var(--first-color), #260e64, var(--dark-bg-color));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Home img
+{
+    transform: rotate(32deg);
+}
+
+.text-side, .image-side
+{
+    padding: 5vh;
+}
+
+.text-side h1, p
+{
+    margin: 5px;
+}
+
+.text-side button
+{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 15vh;
+    height: 4vh;
+    margin: 1vh 0;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#PS4 button:hover, #PS3 button:hover, #PS2 button:hover, #PSP button:hover, #PSV button:hover
+{
+    border: 3px solid var(--ps-color);
+}
+
+#XO button:hover, #X360 button:hover
+{
+    border: 3px solid var(--xbox-color);
+}
+
+#PS4, #PS3, #PS2, #PSP, #PSV, #XO, #X360, #CRT
+{
+    height: 40%;
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
