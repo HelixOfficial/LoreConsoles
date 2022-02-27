@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoreConsoles</title>
+    <link rel="shortcut icon" href="../../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/ps3.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/main.js"></script>
+    <script src="../../js/navbar.js"></script>
+</head>
+<body>
+    <div id="NavContainer" class="navbar-container navbar-container-active">
+        <nav id="Navbar" class="navbar navbar-active">
+            <a href="#Home"><img src="../../img/logo.png" alt="Logo" width="35px"></a>
+            <ul>
+                <li><a href="../../index.html" class="home-nav">Home</a></li>
+                <!-- <li><a href="#" class="ps4-nav">PS4</a></li> -->
+                <li><a href="#" class="ps3-nav">PS3</a></li>
+                <!-- <li><a href="#" class="ps2-nav">PS2</a></li> -->
+                <!-- <li><a href="#" class="psp-nav">PSP</a></li> -->
+                <!-- <li><a href="#" class="psv-nav">PSV</a></li> -->
+                <!-- <li><a href="#" class="xo-nav">XO</a></li> -->
+                <!-- <li><a href="#" class="x360-nav">X360</a></li> -->
+                <!-- <li><a href="#" class="crt-nav">CRT</a></li> -->
+            </ul>
+        </nav>
+    </div>
+    <div id="Home">
+        <div class="container">
+            <img src="../../img/PS3.png" alt="PS3 Logo" width="256px">
+            <div class="content">
+                <div class="buttons">
+                    <button onclick="changeContent(1);" class="fwbutton">Firmware</button>
+                    <!-- <button onclick="changeContent(2);" class="sfbutton">Stuff</button> -->
+                </div>
+                <iframe src="firmware.html" frameborder="0" height="85%" width="100%"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
