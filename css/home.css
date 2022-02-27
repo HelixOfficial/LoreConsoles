@@ -12,43 +12,6 @@
     transform: rotate(32deg);
 }
 
-#ChangeLog
-{
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#ChangeLog iframe
-{
-    background-color: #1a1a1a;
-    padding: 2vh 5vh;
-    border-radius: 5vh;
-    width: 75vh;
-    height: 50vh;
-}
-
-#PS4 button:hover, #PS3 button:hover, #PS2 button:hover, #PSP button:hover, #PSV button:hover
-{
-    border: 3px solid var(--ps-color);
-}
-
-#XO button:hover, #X360 button:hover
-{
-    border: 3px solid var(--xbox-color);
-}
-
-#PS4, #PS3, #PS2, #PSP, #PSV, #XO, #X360, #CRT
-{
-    height: 40%;
-    background-color: var(--dark-bg-color);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .text-side, .image-side
 {
     padding: 5vh;
@@ -72,28 +35,21 @@
     transition: 0.25s;
 }
 
-@media only screen and (max-width: 600px) 
+#PS4 button:hover, #PS3 button:hover, #PS2 button:hover, #PSP button:hover, #PSV button:hover
 {
-    #Home
-    {
-        height: 100%;
-        background: linear-gradient(130deg , var(--first-color), #260e64, var(--dark-bg-color));
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    border: 3px solid var(--ps-color);
+}
 
-    #Home img
-    {
-        display: none;
-    }
+#XO button:hover, #X360 button:hover
+{
+    border: 3px solid var(--xbox-color);
+}
 
-    .text-side
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        order: 1;
-    }
+#PS4, #PS3, #PS2, #PSP, #PSV, #XO, #X360, #CRT
+{
+    height: 40%;
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
